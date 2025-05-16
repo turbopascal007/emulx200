@@ -1,0 +1,42 @@
+
+This bulletin board software is a derrivation of the Telegard 2.5
+source code.  There have been significant changes, however, the
+package still, generally speaking, operates in the same fasion.
+
+
+This package should be used for educational purposes.  You are free
+to modify and compile at your own leasure provided you display in
+your documentation files:
+
+    "Software based on Telegard 2.5 bulletin board operating system"
+                                   AND
+     "Software modifications based on Emulex bulletin board system"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+The CORE routines (entry/exit) can be found in EMULEX.PAS.  When
+compiling, you must compile starting with this file.  Do not change
+any of the compiler directives, including the stack/memory allocation
+settings UNLESS you know what you are doing.
+
+The coding, for the most part, is well commented, however there are
+many aspects of the coding which can be made more efficient by using
+assembly language.  More notably, the communications routines should
+be replaced with a newer implementation of the fossil and digiboard
+system.  I suggest trying to rewire the communications routines
+with Tim Strike's (Author of Telegard 3.0) FKFOSSIL.TPU - available
+on request.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+WARNING: There are still a few "rough" spots in the software's
+operation.  This is to be expected, otherwise it wouldn't have been
+distributed as freeware.  You are at your own risk by running it.
+Nevertheless, its in good shape.  And, THERE ARE NO HIDDEN SUB
+ROUTINES WHICH FORMAT YOUR HARD DISK
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Please do not remove or add files to the original zip.  Do not have
+your bbs strip any DIZ files, and please do not upload this to a
+pirate board.
